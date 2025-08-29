@@ -62,3 +62,6 @@ destroy:
 	rm -rf laravel/public/hot
 	rm -rf laravel/public/storage
 	rm -f laravel/.env
+
+exec-app:
+	docker compose exec app bash
